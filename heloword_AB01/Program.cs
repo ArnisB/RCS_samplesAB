@@ -44,7 +44,7 @@ namespace heloword_AB01
 
     static void SayHello()
         {
-          Console.WriteLine("Hello word! GGGG");
+          Console.WriteLine("Hello word! Lai dziivo pasaule");
           Console.ReadLine();
         }
      }
