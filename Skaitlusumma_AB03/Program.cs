@@ -10,6 +10,7 @@ namespace Skaitlusumma_AB03
     {
         static void Main(string[] args)
         {
+           
             // Norādaam funkciju, kuru vajag izsaukt 
             SK();
         }
@@ -45,12 +46,13 @@ namespace Skaitlusumma_AB03
             // izveidojam mainigo, kur glabāt  skaitli - nu jau skaitlis 
             double D;
             // Pārveidojam ievadīto tekstu par skaitli un veicam pārbaudes
+           // Bool - nodrošina false vai try
             bool PRB = double.TryParse(IT, out D);
             if (PRB == false)
             {
                 Console.WriteLine("Slikts skaitlis\"" + IT + " \" \\vajag tikai skaitli");
                 Console.WriteLine("Ievadi pareizu skaitli");
-                // Palaižam funkciju funkcijā  - lai iet nākamo apli līdz pareizi !
+                // Palaižam funkciju funkcijā  - sākam no jauna - lai iet nākamo apli līdz pareizi !
                 D = ImNo(msg);
             }
             // Apzīmējums ja If izpildās kas jādara !!!!! 
