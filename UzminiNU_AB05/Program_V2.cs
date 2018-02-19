@@ -39,10 +39,10 @@ namespace UzminiNU_AB05
                 }
                 else if (SkV > MS)
                 {
-                    Console.WriteLine("Pa lielu, dod mazāku skaitli ");
+                    Console.WriteLine("Par lielu, dod mazāku skaitli ");
                     //Palaižam funkciju no jauna jo while (true)
                 }
-                else
+                else 
                 {
                     Console.WriteLine("Pa mazu, dod lielāku skaitli ");
                     //Palaižam funkciju no jauna jo while (true)

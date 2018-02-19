@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F5CF46B-C4D0-4199-BD37-272BC06069A3}</ProjectGuid>
+    <ProjectGuid>{C4DF0ED0-2063-4E14-8026-0D7AE81567F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UzminiNU_AB05</RootNamespace>
-    <AssemblyName>UzminiNU_AB05</AssemblyName>
+    <RootNamespace>Uzmini_NU_05_V2</RootNamespace>
+    <AssemblyName>Uzmini_NU_05_V2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program_V2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

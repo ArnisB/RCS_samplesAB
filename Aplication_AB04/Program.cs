@@ -11,6 +11,7 @@ namespace Aplication_AB04
         static void Main(string[] args)
         {
             string UI = "X";
+
             while (true)
             {
                 Console.WriteLine("Izdari izvēli");
@@ -34,7 +35,7 @@ namespace Aplication_AB04
                     // Vai dalās skaitļi - Norādaam funkciju, kuru vajag izsaukt 
                     vaidalas();
                 }
-                else if (UI == "X")
+                else if (UI == "X"|| UI=="12345")
                 {
                     Console.WriteLine("Paldies par darbu !");
                     Console.ReadLine();

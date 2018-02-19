@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F5CF46B-C4D0-4199-BD37-272BC06069A3}</ProjectGuid>
+    <ProjectGuid>{134E0DB5-B229-429B-8ECD-D71D279BEBC5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UzminiNU_AB05</RootNamespace>
-    <AssemblyName>UzminiNU_AB05</AssemblyName>
+    <RootNamespace>ToDoList_AB_06</RootNamespace>
+    <AssemblyName>ToDoList_AB_06</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program_V2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="todoolist.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
