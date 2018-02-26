@@ -102,9 +102,30 @@ namespace ToDoList_AB_06
         }
         public void MarkTodoAsDone(int doneTodoIndex)
         {
-           //Izveido atzīmi padarīts vai nē 
+            //Izveido atzīmi padarīts vai nē 
             TodoListEntry doneTodo = todoEntries[doneTodoIndex];
             doneTodo.IsComplete = true;
+        }
+        public void ShowNeedTodos()
+        {
+            // izsaucam pirmo elementu no saraksta izmantojot indeksatoru
+            // alt versija izm piesk operat for(int skaititajs = 0; skaititajs < todoEntries.Count; skaititajs += 1)
+            // = for(int skaititajs = 0; skaititajs < todoEntries.Count; skaititajs = skaititajs++)
+            // vārdu jeb mainīgo skaititājs visusrvar aizstāt ar burtu piem i
+            Console.WriteLine("Neizdarīto lietu saraksts:  ");
+            Console.WriteLine(" ");// tukša līnija skaistumam 
+            for (int skaititajs = 0; skaititajs < todoEntries.Count; skaititajs = skaititajs + 1)
+            {
+                //Izvadām bez enter galā 
+                
+                string gggg = ((skaititajs + 1) + "   " + todoEntries[skaititajs].Name);
+                if (!todoEntries[skaititajs].IsComplete)
+                {
+                    // izdrukājam neizdarīto lietu 
+                    Console.WriteLine(gggg);
+                }
+                // daram neko jeb beidzam funkciju  !!!!!!
+            }
         }
     }
 }

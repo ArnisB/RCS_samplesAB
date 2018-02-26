@@ -25,6 +25,7 @@ namespace ToDoList_AB_06
                 Console.WriteLine("a vai add vai pievienot - ja vēlies pievienot ierakstu: ");
                 Console.WriteLine("at - ja vēliest atzimēt vai darbiņš izpildīts  !!! ");
                 Console.WriteLine("b vai  izvads    - parādīt visu sarakstu  !!! ");
+                Console.WriteLine("ND --------  neizdarīto darbu saraksts   !!! ");
                 Console.WriteLine("c - dzēst  vienu konkrētu ierakstu");
                 Console.WriteLine("d - Dzēst  visus ierakstus");
                 Console.WriteLine("s - saglabājam visu ierakstu saturu failā");
@@ -41,7 +42,7 @@ namespace ToDoList_AB_06
                         string todoTask = Console.ReadLine();
                         list.AddNewToDo(todoTask);
                         break;
-                    case ("izvads"):// no ī zava rar izsaukt ar dibuā
+                    case ("izvads"):// uzraksti "izvads" un izsauksi sarakstu 
                     case "b":
                         // Izvadīt darāmās lietas uz ekrāna
                         Console.WriteLine("          ");
@@ -86,6 +87,11 @@ namespace ToDoList_AB_06
                         Console.WriteLine(" Ievadi  numuru, kura lieta ir paveikta:     ");
                         int doneTodoIndex = int.Parse(Console.ReadLine());
                         list.MarkTodoAsDone(doneTodoIndex - 1);
+                        break;
+                    case "ND":
+                        // Izvadīt neizdarītās lietas uz ekrāna
+                        Console.WriteLine("          ");
+                        list.ShowNeedTodos();
                         break;
                     default:
                         Console.WriteLine("Nav saprotams, kas ievadīts");

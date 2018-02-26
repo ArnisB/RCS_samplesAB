@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList_AB_06", "ToDoList_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz_AB07_V2", "FizzBuzz_AB07_V2\FizzBuzz_AB07_V2.csproj", "{A78EDBC1-8415-428D-B7A2-E802D0D5213B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_AB_08", "Dictionary_AB_08\Dictionary_AB_08.csproj", "{BBBBA267-C365-40E9-AC5F-BA221D95D68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_AB09_V2", "Web_AB09_V2\Web_AB09_V2.csproj", "{A8088B27-6A69-4AE9-8EDA-533C606B3694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{A78EDBC1-8415-428D-B7A2-E802D0D5213B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78EDBC1-8415-428D-B7A2-E802D0D5213B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78EDBC1-8415-428D-B7A2-E802D0D5213B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBBA267-C365-40E9-AC5F-BA221D95D68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBBA267-C365-40E9-AC5F-BA221D95D68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBBA267-C365-40E9-AC5F-BA221D95D68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBBA267-C365-40E9-AC5F-BA221D95D68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8088B27-6A69-4AE9-8EDA-533C606B3694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8088B27-6A69-4AE9-8EDA-533C606B3694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8088B27-6A69-4AE9-8EDA-533C606B3694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8088B27-6A69-4AE9-8EDA-533C606B3694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
